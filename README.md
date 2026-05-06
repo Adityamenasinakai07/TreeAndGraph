@@ -55,9 +55,10 @@ Case handling:
 Leaf node → delete directly
 One child → replace with child
 Two children → replace with inorder successor
-⏱ Time Complexity
-Operation	Average Case	Worst Case
-Insertion	O(log n)	O(n)
-Deletion	O(log n)	O(n)
-Searching	O(log n)	O(n)
-Traversals	O(n)	O(n)
+
+| Operation  | Average Case             | Worst Case   |
+| ---------- | ------------------------ | ------------ |
+| Insertion  | O(log⁡n)O(\\log n)O(logn) | O(n)O(n)O(n) |
+| Deletion   | O(log⁡n)O(\\log n)O(logn) | O(n)O(n)O(n) |
+| Searching  | O(log⁡n)O(\\log n)O(logn) | O(n)O(n)O(n) |
+| Traversals | O(n)O(n)O(n)             | O(n)O(n)O(n) |
